@@ -2,6 +2,8 @@
 //
 //     final malayalamMovieModel = malayalamMovieModelFromJson(jsonString);
 
+// ignore_for_file: constant_identifier_names
+
 import 'dart:convert';
 
 MalayalamMovieModel malayalamMovieModelFromJson(String str) =>

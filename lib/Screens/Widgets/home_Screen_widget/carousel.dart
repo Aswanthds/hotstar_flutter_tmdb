@@ -88,7 +88,7 @@ class _CarouselWidgetState extends State<CarouselWidget> {
                                         .voteAverage)!
                                     .round()
                                     .toString(),
-                                style: TextStyle(
+                                style: const TextStyle(
                                   fontSize: 25,
                                 ),
                               ),
@@ -99,7 +99,7 @@ class _CarouselWidgetState extends State<CarouselWidget> {
                               ),
                               Text(
                                 ('From ${widget.movies.results![pagePosition].voteCount} votes'),
-                                style: TextStyle(
+                                style: const TextStyle(
                                   fontSize: 25,
                                 ),
                               ),

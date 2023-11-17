@@ -78,7 +78,7 @@ class _LatestReleasesWidgetState extends State<LatestReleasesWidget> {
           ),
           child: Text(
             "Released on : ${Functions.formatDate((widget.trendingMovies!.results?[widget.index].releaseDate).toString())}",
-            style: TextStyle(color: Colors.white, fontSize: 20),
+            style: const TextStyle(color: Colors.white, fontSize: 20),
           ),
         ),
         Padding(
